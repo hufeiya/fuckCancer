@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+    <color name="primary">#009688</color>
+    <color name="primaryDark">#00796b</color>
+    <color name="accent">#eeff41</color>
+    <color name="accentLight">#F4FF81</color>
+    <array name="progress_colors">
+        <item>#FF3F8AF8</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="in_colors">
+        <item>#FFB5D4FF</item>
+        <item>#FFDEEAFC</item>
+        <item>#FFFAFFFE</item>
+    </array>
+</resources>
