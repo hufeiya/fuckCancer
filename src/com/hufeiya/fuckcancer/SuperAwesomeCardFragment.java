@@ -86,7 +86,7 @@ public class SuperAwesomeCardFragment extends Fragment {
                     } else {
                         //indexBundle.putInt("index",indexBundle.getInt("index")-1);
                         Log.i("msg", "index=" + indexBundle.getInt("index"));
-                        initArticle(indexBundle);
+                        initArticle(0,indexBundle);
                         if (indexBundle.getInt("index") <= 0) {
                             listView.removeFooterView(footer);
                         }
@@ -118,6 +118,16 @@ public class SuperAwesomeCardFragment extends Fragment {
                     @Override
                     public void run() {
                         mPullToRefreshView.setRefreshing(false);
+                        if(indexBundle.getInt("biggestId",0) != 0){
+                            if(indexBundle.getInt("biggestIdAlreadyExe",0) != 0 && //already refrashing
+                                    indexBundle.getInt("biggestId",0) <= indexBundle.getInt("biggestIdAlreadyExe",0)){
+                                return;
+                            }
+                            indexBundle.putInt("biggestIdAlreadyExe", indexBundle.getInt("biggestId",0));
+                            indexBundle.putInt("oldIndex",indexBundle.getInt("index",0));
+                            indexBundle.putInt("index",-99);
+                            initArticle(indexBundle.getInt("biggestId",0),indexBundle);
+                        }
                     }
                 }, REFRESH_DELAY);
             }
@@ -131,7 +141,7 @@ public class SuperAwesomeCardFragment extends Fragment {
         listView.setOnScrollListener(scrollListener);
         listView.addFooterView(footer);
         if (articles.isEmpty()) {
-            initArticle(indexBundle);
+            initArticle(0,indexBundle);
 
         }
         listView.setAdapter(articleAdapter);
@@ -186,9 +196,9 @@ public class SuperAwesomeCardFragment extends Fragment {
     }
 
     // test the Internet connection
-    private void initArticle(Bundle indexBundle) {
+    private void initArticle(int id,Bundle indexBundle) {
         SharedPreferences shpf = getActivity().getSharedPreferences("user", Context.MODE_PRIVATE);
-        new ArticleTitle(0, shpf.getInt("type",0), position, indexBundle, articleAdapter, articles).startDownloadArticles();
+        new ArticleTitle(id, shpf.getInt("type",0), position, indexBundle, articleAdapter, articles).startDownloadArticles();
 
     }
 }

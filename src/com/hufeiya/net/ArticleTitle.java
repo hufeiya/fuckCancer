@@ -74,13 +74,21 @@ public class ArticleTitle {
 
         protected void onPostExecute(Boolean result) {
             if(temp != null && temp.size() != 0){
-                indexBundle.putInt("index",temp.get(0).getGroups()-1);
-                articles.addAll(temp);
+                if(indexBundle.getInt("index") == -99){
+                    articles.addAll(0,temp);
+                }else{
+                    articles.addAll(temp);
+                }
+                indexBundle.putInt("index",temp.get(temp.size()-1).getGroups()-1);
+                indexBundle.putInt("biggestId",temp.get(0).getId());
+
                 articleAdapter.notifyDataSetChanged();//update the listview when the articles are downloaded.
                 new ArticlePic(articles, articleAdapter).startDownloadPic();
                 Log.d("fuck", "articles download Done!");
             }
-
+            if(indexBundle.getInt("index",0) == -99){
+                indexBundle.putInt("index",indexBundle.getInt("oldIndex",0));
+            }
         }
     }
 }

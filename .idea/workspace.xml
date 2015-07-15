@@ -11,94 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c23c66a8-2c4c-40c6-9389-0f539ab394f4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/local.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher_actionbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher_actionbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/actionbar_bottom.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/background_card.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/contact.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_action_change_color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_action_user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher_actionbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher_chrome.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher_gmail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher_gmaps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher_gplus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/tabs_pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/tabs_pattern_diagonal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher_actionbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_tabs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/background_tabs_diagonal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/buildings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/deafult_head_icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/example.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/gradient_header_background.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-land/fragment_quick_contact.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-v11/custom_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_article_reading.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_register.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/article_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/custom_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/footer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_card.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_quick_contact.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_quickcontact.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/gradient_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/row_spn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/row_spn_dropdown.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/toolbar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/menu_article_reading.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/menu_register.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v11/themes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v19/themes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/themes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/adapter/ArticleAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/database/MydatabaseHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/ArticleReadingActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/BaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/BaseActivityHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/LinearLayoutFeedback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/QuickContactFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/RegisterActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SimpleHeaderRecyclerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SimpleRecyclerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SuperAwesomeCardFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/javabean/Article.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/javabean/ArticleEntityBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/net/ArticleEntityDownloading.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/net/ArticlePic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/hufeiya/net/ArticleTitle.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hufeiya/net/ArticleTitle.java" afterPath="$PROJECT_DIR$/src/com/hufeiya/net/ArticleTitle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SuperAwesomeCardFragment.java" afterPath="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SuperAwesomeCardFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="newFuck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,89 +35,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="SuperAwesomeCardFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SuperAwesomeCardFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+              <caret line="128" column="87" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
+              <folding>
+                <element signature="e#4635#5750#0" expanded="true" />
+                <element signature="e#4786#5709#0" expanded="true" />
+                <element signature="e#5708#5709#0" expanded="true" />
+                <element signature="e#5749#5750#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hufeiya/fuckcancer/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03559322">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.10677966">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/update/UpdateDialog.java">
+      <file leaf-file-name="ArticleTitle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hufeiya/net/ArticleTitle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#554#581#0" expanded="true" />
-                <element signature="e#702#731#0" expanded="true" />
-                <element signature="e#1043#1072#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DownloadService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/update/DownloadService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-              <folding>
-                <element signature="e#2835#2871#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/update/UpdateChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-              <folding>
-                <element signature="e#7596#7634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogFragment.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/sdk/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0-sources.jar!/android/support/v4/app/DialogFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.72">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+              <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -1023,6 +886,9 @@
         <option value="$PROJECT_DIR$/src/update/DownloadService.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SuperAwesomeCardFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/hufeiya/net/ArticleTitle.java" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
       </list>
     </option>
   </component>
@@ -1417,7 +1283,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1428,10 +1294,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901832" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1473,14 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.72">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07118644">
@@ -1491,14 +1349,6 @@
             <element signature="e#985#1025#0" expanded="true" />
             <element signature="e#1137#1170#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/sdk/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0-sources.jar!/android/support/v4/app/DialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1539,6 +1389,44 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hufeiya/fuckcancer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85423726">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/update/UpdateDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81864405">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#554#581#0" expanded="false" />
+            <element signature="e#702#731#0" expanded="false" />
+            <element signature="e#1043#1072#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/update/DownloadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5694915">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="e#2835#2871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/update/UpdateChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1549,48 +1437,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://$USER_HOME$/sdk/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0-sources.jar!/android/support/v4/app/DialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.99661016">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.739823">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hufeiya/net/ArticleTitle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hufeiya/fuckcancer/SuperAwesomeCardFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="87" selection-start-line="128" selection-start-column="87" selection-end-line="128" selection-end-column="87" />
+          <folding>
+            <element signature="e#4635#5750#0" expanded="true" />
+            <element signature="e#4786#5709#0" expanded="true" />
+            <element signature="e#5708#5709#0" expanded="true" />
+            <element signature="e#5749#5750#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/update/UpdateDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#554#581#0" expanded="true" />
-            <element signature="e#702#731#0" expanded="true" />
-            <element signature="e#1043#1072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/update/DownloadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="e#2835#2871#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hufeiya/fuckcancer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03559322">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.10677966">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
