@@ -27,12 +27,10 @@
         <item>舌</item>
         <item>脑</item>
     </string-array>
-    <string name="pull_to_refresh">下拉可以刷新</string>
-    <string name="release_to_refresh">释放立即刷新</string>
-    <string name="refreshing">正在刷新…</string>
-    <string name="not_updated_yet">暂未更新过</string>
-    <string name="updated_at">上次更新于%1$s前</string>
-    <string name="updated_just_now">刚刚更新</string>
-    <string name="time_error">时间有问题</string>
-
+    <string name="newUpdateAvailable">发现新版本</string>
+    <string name="dialogPositiveButton">立即下载</string>
+    <string name="dialogNegativeButton">以后再说</string>
+    <string name="app_no_new_update">没有发现新版本</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="download_success">下载完成，点击安装</string>
 </resources>

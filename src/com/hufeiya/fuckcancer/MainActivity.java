@@ -42,6 +42,7 @@ import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import update.UpdateChecker;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -52,6 +53,7 @@ public class MainActivity extends ActionBarActivity {
     @InjectView(com.hufeiya.fuckcancer.R.id.pager)
     ViewPager pager;
 
+    protected static final String APP_UPDATE_SERVER_URL = "http://128.199.97.160:8089/fuckCancer/update";
     private MyPagerAdapter adapter;
     private Drawable oldBackground = null;
     private int currentColor = Color.parseColor("#FFC74B46");
@@ -106,6 +108,7 @@ public class MainActivity extends ActionBarActivity {
                 Toast.makeText(MainActivity.this, "Tab reselected: " + position, Toast.LENGTH_SHORT).show();
             }
         });
+        UpdateChecker.checkForNotification(MainActivity.this, APP_UPDATE_SERVER_URL);//check the update
 
 
     }

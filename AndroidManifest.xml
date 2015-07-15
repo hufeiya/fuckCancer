@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hufeiya.fuckcancer"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="com.hufeiya.fuckcancer">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -30,6 +28,9 @@
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register" >
         </activity>
+        <service
+            android:name="update.DownloadService"
+            android:exported="true" />
     </application>
 
 </manifest>
