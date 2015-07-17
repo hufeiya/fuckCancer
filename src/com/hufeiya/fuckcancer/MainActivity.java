@@ -39,6 +39,7 @@ import android.widget.Toast;
 import com.astuetz.PagerSlidingTabStrip;
 import com.balysv.materialmenu.MaterialMenuDrawable;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
+import com.umeng.analytics.MobclickAgent;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
@@ -69,6 +70,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MobclickAgent.updateOnlineConfig(this);//You Meng SDK send infomation to server.
         setContentView(com.hufeiya.fuckcancer.R.layout.activity_main);
         linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
         //materialMenuIcon = new MaterialMenuView(this);
@@ -199,4 +201,18 @@ public class MainActivity extends ActionBarActivity {
     public int getCurrentColor(){
         return currentColor;
     }
+    //You Meng
+    @Override
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    @Override
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
+
+
+
 }

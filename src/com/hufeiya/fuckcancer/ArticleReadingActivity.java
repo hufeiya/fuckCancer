@@ -32,6 +32,7 @@ import com.github.ksoichiro.android.observablescrollview.ScrollUtils;
 import com.hufeiya.javabean.Article;
 import com.hufeiya.net.ArticleEntityDownloading;
 import com.nineoldandroids.view.ViewHelper;
+import com.umeng.analytics.MobclickAgent;
 
 public class ArticleReadingActivity extends BaseActivity implements ObservableScrollViewCallbacks {
 
@@ -99,5 +100,16 @@ public class ArticleReadingActivity extends BaseActivity implements ObservableSc
     protected void onDestroy() {
         super.onDestroy();
 
+    }
+    //You Meng
+    @Override
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    @Override
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

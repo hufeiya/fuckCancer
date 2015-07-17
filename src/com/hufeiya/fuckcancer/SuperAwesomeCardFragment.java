@@ -34,6 +34,7 @@ import com.hufeiya.adapter.ArticleAdapter;
 import com.hufeiya.database.MydatabaseHelper;
 import com.hufeiya.javabean.Article;
 import com.hufeiya.net.ArticleTitle;
+import com.umeng.analytics.MobclickAgent;
 import com.yalantis.phoenix.PullToRefreshView;
 
 import java.util.ArrayList;
@@ -81,13 +82,13 @@ public class SuperAwesomeCardFragment extends Fragment {
             @Override
             public void onScrollStateChanged(AbsListView arg0, int state) {
                 if (lastitem == articleAdapter.getCount() && state == AbsListView.OnScrollListener.SCROLL_STATE_IDLE) {
-                    if (indexBundle.getInt(("index")) < 0) {
+                    if (indexBundle.getInt(("index")) < 0 || articles.isEmpty()) {
                         listView.removeFooterView(footer);
                     } else {
                         //indexBundle.putInt("index",indexBundle.getInt("index")-1);
                         Log.i("msg", "index=" + indexBundle.getInt("index"));
                         initArticle(0,indexBundle);
-                        if (indexBundle.getInt("index") <= 0) {
+                        if (indexBundle.getInt("index") <= 0 || articles.isEmpty()) {
                             listView.removeFooterView(footer);
                         }
                     }
@@ -163,13 +164,14 @@ public class SuperAwesomeCardFragment extends Fragment {
     @Override
     public void onPause() {
         super.onPause();
-
+        MobclickAgent.onPageEnd("Fragment " + position);
         Log.d("frag", position + "onPause is exe!!!");
     }
 
     @Override
     public void onResume() {
         super.onResume();
+        MobclickAgent.onPageStart("Fragment " + position);
         Log.d("frag", position + "onResume is exe!!!");
     }
 

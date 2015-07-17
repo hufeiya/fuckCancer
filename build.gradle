@@ -29,6 +29,7 @@ dependencies {
     compile 'com.github.ksoichiro:android-observablescrollview:1.5.2'
     compile 'com.github.rey5137:material:1.1.1'
     compile 'com.jpardogo.materialtabstrip:library:1.1.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
     //this is the pull to refresh artificial on my local maven repository
     //You can use <compile 'com.yalantis:phoenix:1.2.1'> instead the following line.
     compile 'group.pals.android:filechooser:0.1.0'
