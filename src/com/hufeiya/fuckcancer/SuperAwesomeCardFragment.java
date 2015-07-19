@@ -87,9 +87,12 @@ public class SuperAwesomeCardFragment extends Fragment {
                     } else {
                         //indexBundle.putInt("index",indexBundle.getInt("index")-1);
                         Log.i("msg", "index=" + indexBundle.getInt("index"));
-                        initArticle(0,indexBundle);
-                        if (indexBundle.getInt("index") <= 0 || articles.isEmpty()) {
-                            listView.removeFooterView(footer);
+                        if( ! indexBundle.getBoolean("isLoading",true)){
+                            indexBundle.putBoolean("isLoading",true);
+                            initArticle(0,indexBundle);
+                            if (indexBundle.getInt("index") <= 0 || articles.isEmpty()) {
+                                listView.removeFooterView(footer);
+                            }
                         }
                     }
                     Log.i("msg", "onScrollStateChanged--lastitem" + lastitem);
@@ -197,7 +200,6 @@ public class SuperAwesomeCardFragment extends Fragment {
         Log.d("frag", position + " onSaveInstanceState is exe!!!");
     }
 
-    // test the Internet connection
     private void initArticle(int id,Bundle indexBundle) {
         SharedPreferences shpf = getActivity().getSharedPreferences("user", Context.MODE_PRIVATE);
         new ArticleTitle(id, shpf.getInt("type",0), position, indexBundle, articleAdapter, articles).startDownloadArticles();

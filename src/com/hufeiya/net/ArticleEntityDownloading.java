@@ -63,7 +63,8 @@ public class ArticleEntityDownloading {
         }
 
         protected void onPostExecute(Boolean result) {
-            body.loadDataWithBaseURL(null, articleEntityBean.getDetails(), "text/html", "utf-8",
+            String html = "<div style=\"word-break:break-all\">" + articleEntityBean.getDetails() + "</div>";
+            body.loadDataWithBaseURL(null,html, "text/html", "utf-8",
                     null);
             new ArticlePic(article, image, anchor,true).startDownloadPic();
             Log.d("fuck", "articleEntity download Done!");

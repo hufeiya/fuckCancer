@@ -34,7 +34,8 @@ public class ArticleTitle {
     private Bundle indexBundle;
     private String httpServerUrl = "http://128.199.97.160:8089/fuckCancer/hello";
 
-    public ArticleTitle(int id, int type, int columnx, Bundle indexBundle, ArticleAdapter articleAdapter, List<Article> articles) {
+    public ArticleTitle(int id, int type, int columnx, Bundle indexBundle, ArticleAdapter articleAdapter,
+                        List<Article> articles) {
         this.id = id;
         this.type = type;
         this.columnx = columnx;
@@ -81,12 +82,13 @@ public class ArticleTitle {
                 }
                 indexBundle.putInt("index",temp.get(temp.size()-1).getGroups()-1);
                 indexBundle.putInt("biggestId",temp.get(0).getId());
-
                 articleAdapter.notifyDataSetChanged();//update the listview when the articles are downloaded.
+                indexBundle.putBoolean("isLoading",false);//loading complete.
                 new ArticlePic(articles, articleAdapter).startDownloadPic();
                 Log.d("fuck", "articles download Done!");
             }
-            if(indexBundle.getInt("index",0) == -99){
+
+            if(indexBundle.getInt("index", 0) == -99) {
                 indexBundle.putInt("index",indexBundle.getInt("oldIndex",0));
             }
         }
