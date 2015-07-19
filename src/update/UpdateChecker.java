@@ -10,6 +10,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Looper;
+import android.os.Vibrator;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
@@ -246,6 +247,9 @@ public class UpdateChecker extends Fragment {
 		noti.flags = android.app.Notification.FLAG_AUTO_CANCEL;
 		NotificationManager notificationManager = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
 		notificationManager.notify(0, noti);
+		Vibrator vibrator = (Vibrator)getActivity().getSystemService(Context.VIBRATOR_SERVICE);
+		long [] pattern = {100,400,100,400};   // 停止 开启 停止 开启
+		vibrator.vibrate(pattern, -1);
 	}
 
 	
