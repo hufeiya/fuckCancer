@@ -26,6 +26,8 @@
         <activity
             android:name=".ArticleReadingActivity"
             android:label="@string/title_activity_article_reading" >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
         <activity
             android:name=".RegisterActivity"

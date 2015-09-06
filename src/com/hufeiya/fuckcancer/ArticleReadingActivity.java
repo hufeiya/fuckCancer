@@ -48,9 +48,8 @@ public class ArticleReadingActivity extends BaseActivity implements ObservableSc
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_article_reading);
-
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mImageView = (ImageView)findViewById(R.id.image);
         mToolbarView = (Toolbar)findViewById(R.id.toolbar);
         mAnchorView =  findViewById(R.id.anchor);
